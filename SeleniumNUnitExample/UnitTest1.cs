@@ -21,7 +21,7 @@ namespace SeleniumNUnitExample
         [SetUp]
         public void SetUp()
         {
-            string path = "C:\\Users\\1\\Desktop\\אוטומציה\\SeleniumNUnitExample\\SeleniumNUnitExample";
+            string path = "C:\\Users\\1\\Desktop\\אוטומציה\\SeleniumNUnitExample\\SeleniumNUnitExample\\drivers";
             driver = new ChromeDriver(path);
             driver.Manage().Window.Maximize();
             googleHomePage = new GoogleHomePage(driver);
